@@ -172,7 +172,17 @@ a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
    ==========================================
 */
 @media only screen and (min-width:481px) {
-m
+   ul.mainmenu > li {
+      float:left;
+      position: relative;
+      width: 20%;
+   }
+
+   ul.submenu {
+      box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+      position: absolute;
+      width: 200%;
+   }
 }
 
 /* =========================================
@@ -180,5 +190,11 @@ m
    ==========================================
 */
 @media only screen and (min-width: 796px) {
-
+   ul.submenu {
+      background: transparent;
+      box-shadow: none;
+      display: block;
+      position: relative;
+      width: 100%; 
+   }
 }
