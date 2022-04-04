@@ -9,7 +9,7 @@ body, html {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #642580;
+  background-color: #da8c17;
   background-size: cover;
   min-height: 100%;
 
@@ -32,7 +32,7 @@ h3 {
 }
 
 .textSection {
-  background-color:#642580;
+  background-color:#da8c17;
   padding:50px 80px;
 }
 
