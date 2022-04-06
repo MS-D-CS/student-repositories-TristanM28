@@ -14,11 +14,21 @@
 */
 
 /* Table Styles */
+table.schedile {
+   background: white;
+   border: 10px outset rgb(153,0,153)l;
+   border-collapse: collapse;
+   font-size: 0.75em;
+   width:100%;
 
+}
 
 
 /* Table Cell Styles */
+table.schedule th, table.schedule td{
+   border: 1px solid grey;
 
+}
 
 
 /* Table Caption Styles */
